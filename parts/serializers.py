@@ -7,9 +7,10 @@ class CpuSerializer(serializers.ModelSerializer):
         fields = [
             'id',
             'manufacturer',
-            'series',
             'model_name',
             'part_number',
+            'price',
+            'series',
             'family',
             'cores',
             'threads',
@@ -22,17 +23,17 @@ class MemorySerializer(serializers.ModelSerializer):
         model = Memory
         fields = [
             'id',
-            'model_name',
             'manufacturer',
+            'model_name',
             'part_number',
+            'price',
             'speed',
             'frequency',
             'memory_type',
             'isdual',
-            'memory',
+            'ram',
             'cas_latency',
             'isecc',
-            'price',
         ]
 
 class MoboSerializer(serializers.ModelSerializer):
@@ -40,8 +41,10 @@ class MoboSerializer(serializers.ModelSerializer):
         model = Mobo
         fields = [
             'id',
-            'manufactuer',
+            'manufacturer',
+            'model_name',
             'part_number',
+            'price',
             'socket',
             'chipset',
             'form_factor',
@@ -50,20 +53,20 @@ class MoboSerializer(serializers.ModelSerializer):
             'sata',
             'm2',
             'pcie',
-            'price',
         ]
-
+    
 class StorageSerializer(serializers.ModelSerializer):
     class Meta:
         model = Storage
         fields = [
             'id',
-            'name',
+            'manufacturer',
+            'model_name',
             'part_number',
+            'price',
             'capacity',
             'cache',
             'interface',
-            'price',
         ]
 
 class VideocardSerializer(serializers.ModelSerializer):
@@ -72,11 +75,11 @@ class VideocardSerializer(serializers.ModelSerializer):
         fields = [
             'id',
             'manufacturer',
+            'model_name', 
             'part_number',
-            'model_name',
+            'price',
             'chipset',
-            'memory',
+            'vram',
             'base_clock',
             'boost_clock',
-            'price',
         ]

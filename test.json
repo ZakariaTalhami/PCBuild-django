@@ -1,0 +1,548 @@
+[
+    {
+        "model": "parts.part",
+        "pk": 1,
+        "fields": {
+            "manufacturer": "AMD",
+            "model_name": "3600",
+            "part_number": "ryz-5-3600",
+            "price": 100.0
+        }
+    },
+    {
+        "model": "parts.part",
+        "pk": 2,
+        "fields": {
+            "manufacturer": "AMD",
+            "model_name": "2600",
+            "part_number": "ryz-5-2600",
+            "price": 100.0
+        }
+    },
+    {
+        "model": "parts.part",
+        "pk": 3,
+        "fields": {
+            "manufacturer": "G.Skill",
+            "model_name": "Trident z",
+            "part_number": "54SDAASD546",
+            "price": 10.0
+        }
+    },
+    {
+        "model": "parts.part",
+        "pk": 4,
+        "fields": {
+            "manufacturer": "Kingston",
+            "model_name": "a400",
+            "part_number": "54SDAASD546",
+            "price": 30.0
+        }
+    },
+    {
+        "model": "parts.part",
+        "pk": 5,
+        "fields": {
+            "manufacturer": "Asus",
+            "model_name": "Nitro",
+            "part_number": "54SDAASD546",
+            "price": 500.0
+        }
+    },
+    {
+        "model": "parts.part",
+        "pk": 6,
+        "fields": {
+            "manufacturer": "Corsair",
+            "model_name": "models.CharField(max_length=16)",
+            "part_number": "CMK16GX4M2B3000C15",
+            "price": 80.0
+        }
+    },
+    {
+        "model": "parts.part",
+        "pk": 7,
+        "fields": {
+            "manufacturer": "Corsair",
+            "model_name": "Vengeance",
+            "part_number": "CMK16GX4M2B3000C15",
+            "price": 80.0
+        }
+    },
+    {
+        "model": "parts.part",
+        "pk": 8,
+        "fields": {
+            "manufacturer": "Corsair",
+            "model_name": "Vengeance",
+            "part_number": "CMK16GX4M2B3000C15",
+            "price": 80.0
+        }
+    },
+    {
+        "model": "parts.part",
+        "pk": 9,
+        "fields": {
+            "manufacturer": "G.Skill",
+            "model_name": "Trident Z RGB",
+            "part_number": "F4-3200C16D-16GTZR",
+            "price": 105.0
+        }
+    },
+    {
+        "model": "parts.cpu",
+        "pk": 1,
+        "fields": {
+            "series": "Ryzen 5",
+            "family": "zen 2",
+            "cores": 6,
+            "threads": 12,
+            "base_clock": 3.8,
+            "boost_clock": 4.2
+        }
+    },
+    {
+        "model": "parts.cpu",
+        "pk": 2,
+        "fields": {
+            "series": "Ryzen 5",
+            "family": "zen 1",
+            "cores": 6,
+            "threads": 12,
+            "base_clock": 3.6,
+            "boost_clock": 4.0
+        }
+    },
+    {
+        "model": "parts.storage",
+        "pk": 4,
+        "fields": {
+            "capacity": 280,
+            "cache": 512,
+            "interface": "SATA"
+        }
+    },
+    {
+        "model": "parts.videocard",
+        "pk": 5,
+        "fields": {
+            "chipset": "GeForce RTX 2070",
+            "vram": 8,
+            "base_clock": 1625,
+            "boost_clock": 1855
+        }
+    },
+    {
+        "model": "parts.memory",
+        "pk": 3,
+        "fields": {
+            "speed": "DDR4-3000",
+            "frequency": 3000,
+            "memory_type": "288-pin DIMM",
+            "isdual": true,
+            "ram": 16,
+            "cas_latency": 15,
+            "isecc": false
+        }
+    },
+    {
+        "model": "parts.memory",
+        "pk": 6,
+        "fields": {
+            "speed": "DDR4-3000",
+            "frequency": 3000,
+            "memory_type": "288-pin DIMM",
+            "isdual": true,
+            "ram": 16,
+            "cas_latency": 15,
+            "isecc": false
+        }
+    },
+    {
+        "model": "parts.memory",
+        "pk": 7,
+        "fields": {
+            "speed": "DDR4-3000",
+            "frequency": 3000,
+            "memory_type": "288-pin DIMM",
+            "isdual": true,
+            "ram": 16,
+            "cas_latency": 15,
+            "isecc": false
+        }
+    },
+    {
+        "model": "parts.memory",
+        "pk": 8,
+        "fields": {
+            "speed": "DDR4-3000",
+            "frequency": 3000,
+            "memory_type": "288-pin DIMM",
+            "isdual": true,
+            "ram": 16,
+            "cas_latency": 15,
+            "isecc": false
+        }
+    },
+    {
+        "model": "parts.memory",
+        "pk": 9,
+        "fields": {
+            "speed": "DDR4-3200",
+            "frequency": 320,
+            "memory_type": "288-pin DIMM",
+            "isdual": true,
+            "ram": 16,
+            "cas_latency": 15,
+            "isecc": false
+        }
+    },
+    {
+        "model": "users.customuser",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$150000$4qWRZEOmyeNe$4BUXQTS/LZvY2abCC5UcQpzLNgDSwKWJcHz1AHfj9f4=",
+            "last_login": "2019-08-01T14:24:39.391Z",
+            "is_superuser": true,
+            "username": "admin",
+            "first_name": "",
+            "last_name": "",
+            "email": "admin@email.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2019-07-28T09:30:10.504Z",
+            "bio": "",
+            "groups": [],
+            "user_permissions": [],
+            "followers": [],
+            "following": []
+        }
+    },
+    {
+        "model": "users.customuser",
+        "pk": 2,
+        "fields": {
+            "password": "12345",
+            "last_login": null,
+            "is_superuser": true,
+            "username": "ZakariaTalhami",
+            "first_name": "Zakaria",
+            "last_name": "Talhami",
+            "email": "zakaria.a.a.talhami@gmail.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2019-07-28T09:52:50Z",
+            "bio": "Some bio stuff",
+            "groups": [],
+            "user_permissions": [],
+            "followers": [],
+            "following": []
+        }
+    },
+    {
+        "model": "users.customuser",
+        "pk": 3,
+        "fields": {
+            "password": "12345",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "BobTheBuilder",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2019-07-28T13:42:53Z",
+            "bio": "Can we Jinx it?",
+            "groups": [],
+            "user_permissions": [],
+            "followers": [
+                1
+            ],
+            "following": []
+        }
+    },
+    {
+        "model": "users.customuser",
+        "pk": 4,
+        "fields": {
+            "password": "12345",
+            "last_login": null,
+            "is_superuser": true,
+            "username": "Buildatron",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2019-07-28T13:44:01Z",
+            "bio": "Bio or not to Bio",
+            "groups": [],
+            "user_permissions": [],
+            "followers": [
+                2,
+                3
+            ],
+            "following": [
+                2,
+                3
+            ]
+        }
+    },
+    {
+        "model": "users.customuser",
+        "pk": 5,
+        "fields": {
+            "password": "pbkdf2_sha256$150000$euoDiuSWDdQL$AFIjfZhZJiSTkX0RE+Ls8bf8JAWE84hH5wGC1C/Hgk0=",
+            "last_login": "2019-07-29T12:04:43.736Z",
+            "is_superuser": true,
+            "username": "qbs",
+            "first_name": "",
+            "last_name": "",
+            "email": "qbs@email.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2019-07-29T11:57:38.471Z",
+            "bio": "",
+            "groups": [],
+            "user_permissions": [],
+            "followers": [],
+            "following": []
+        }
+    },
+    {
+        "model": "users.customuser",
+        "pk": 6,
+        "fields": {
+            "password": "pbkdf2_sha256$150000$1Li2J1KeRyiy$bylyXINbAmlPh/vcjCIvvTaNIR8YqOc4oZSf83o9ZPc=",
+            "last_login": "2019-07-29T12:36:23.503Z",
+            "is_superuser": false,
+            "username": "Rand",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2019-07-29T12:36:10.786Z",
+            "bio": "Some thing cool, dragon reborn",
+            "groups": [],
+            "user_permissions": [],
+            "followers": [],
+            "following": []
+        }
+    },
+    {
+        "model": "users.customuser",
+        "pk": 7,
+        "fields": {
+            "password": "pbkdf2_sha256$150000$AnNE3gCACRTg$0r9kIXDQOt+dL8vugMxCcVBBqHNPWybccsXEAB0Dd2Q=",
+            "last_login": "2019-07-31T13:13:49.916Z",
+            "is_superuser": false,
+            "username": "ClassOfMass",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2019-07-31T13:13:32.602Z",
+            "bio": "Some bio stuff",
+            "groups": [],
+            "user_permissions": [],
+            "followers": [],
+            "following": []
+        }
+    },
+    {
+        "model": "users.customuser",
+        "pk": 9,
+        "fields": {
+            "password": "pbkdf2_sha256$150000$KKddZ02MDnxy$lAYexWkFOsAAZBswlbvDIYAv9842HmE9oHCdsx02Ovw=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "ZackTheMac",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2019-08-01T08:11:00.617Z",
+            "bio": "Some bio stuff",
+            "groups": [],
+            "user_permissions": [],
+            "followers": [],
+            "following": []
+        }
+    },
+    {
+        "model": "users.customuser",
+        "pk": 10,
+        "fields": {
+            "password": "pbkdf2_sha256$150000$L1PGqAgqBHQu$EE4Ayx2HM0V5nktCp3M6Lqy9nQ6UrRPzQ9nz1mEkahA=",
+            "last_login": "2019-08-01T11:24:52.736Z",
+            "is_superuser": false,
+            "username": "TomSmith",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2019-08-01T11:24:44.920Z",
+            "bio": "Bio or not to Bio",
+            "groups": [],
+            "user_permissions": [],
+            "followers": [],
+            "following": []
+        }
+    },
+    {
+        "model": "users.customuser",
+        "pk": 11,
+        "fields": {
+            "password": "Password124",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "UserName",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2019-08-05T11:36:09.282Z",
+            "bio": "asdsa",
+            "groups": [],
+            "user_permissions": [],
+            "followers": [],
+            "following": []
+        }
+    },
+    {
+        "model": "reviews.comment",
+        "pk": 1,
+        "fields": {
+            "part": 1,
+            "owner": 1,
+            "timestamp": "2019-07-28T09:31:28.026Z",
+            "text": "Some Random Text"
+        }
+    },
+    {
+        "model": "reviews.comment",
+        "pk": 2,
+        "fields": {
+            "part": 1,
+            "owner": 2,
+            "timestamp": "2019-07-28T09:53:55.930Z",
+            "text": "Some Random Text 2"
+        }
+    },
+    {
+        "model": "reviews.comment",
+        "pk": 3,
+        "fields": {
+            "part": 2,
+            "owner": 2,
+            "timestamp": "2019-07-28T13:49:06.106Z",
+            "text": "Its the Bomb, no really, it heats up that much"
+        }
+    },
+    {
+        "model": "reviews.comment",
+        "pk": 4,
+        "fields": {
+            "part": 2,
+            "owner": 3,
+            "timestamp": "2019-07-28T13:49:15.201Z",
+            "text": "Some Random Text"
+        }
+    },
+    {
+        "model": "reviews.comment",
+        "pk": 5,
+        "fields": {
+            "part": 4,
+            "owner": 2,
+            "timestamp": "2019-07-28T13:49:21.649Z",
+            "text": "Some Random Text 2"
+        }
+    },
+    {
+        "model": "reviews.comment",
+        "pk": 6,
+        "fields": {
+            "part": 3,
+            "owner": 1,
+            "timestamp": "2019-07-28T13:49:27.924Z",
+            "text": "Some Random Text"
+        }
+    },
+    {
+        "model": "reviews.comment",
+        "pk": 7,
+        "fields": {
+            "part": 5,
+            "owner": 3,
+            "timestamp": "2019-07-28T13:49:35.231Z",
+            "text": "Some Random Text 34"
+        }
+    },
+    {
+        "model": "reviews.comment",
+        "pk": 8,
+        "fields": {
+            "part": 1,
+            "owner": 4,
+            "timestamp": "2019-07-28T13:49:41.796Z",
+            "text": "Some Random Text 2"
+        }
+    },
+    {
+        "model": "reviews.comment",
+        "pk": 9,
+        "fields": {
+            "part": 4,
+            "owner": 4,
+            "timestamp": "2019-07-28T13:49:48.136Z",
+            "text": "Some Random Text 2"
+        }
+    },
+    {
+        "model": "reviews.comment",
+        "pk": 10,
+        "fields": {
+            "part": 1,
+            "owner": 3,
+            "timestamp": "2019-07-29T07:21:24.969Z",
+            "text": "Some Random Text 2"
+        }
+    },
+    {
+        "model": "reviews.comment",
+        "pk": 11,
+        "fields": {
+            "part": 3,
+            "owner": 2,
+            "timestamp": "2019-08-01T06:40:40.014Z",
+            "text": "adasdasd"
+        }
+    },
+    {
+        "model": "reviews.comment",
+        "pk": 12,
+        "fields": {
+            "part": 5,
+            "owner": 2,
+            "timestamp": "2019-08-01T07:10:48.389Z",
+            "text": "Some Random Comment about it being create and awesome"
+        }
+    },
+    {
+        "model": "reviews.comment",
+        "pk": 13,
+        "fields": {
+            "part": 1,
+            "owner": 10,
+            "timestamp": "2019-08-01T11:47:13.407Z",
+            "text": "Cool CPU Bro"
+        }
+    }
+]
